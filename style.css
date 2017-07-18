@@ -25,12 +25,13 @@ body {
   background-color: rgba(63, 191, 191, 0.6);
   margin: 0 auto;
   padding: 5px;
-  border-width: 2px;
+  border-width: 10px;
   border-color: red;
   border-radius: 5px;
   border-style: double;
-  height: 500px;
+  height: 100%;
   padding-top: 25px;
+
 }
 
 input {
@@ -67,9 +68,13 @@ button {
   margin-top: 20px;
   width: 50%;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 li {
+  position: relative;
   font-size: 20px;
-  color: rgba(6, 6, 200, 0.5);
+  color: rgba(200, 6, 6, 0.8);
+  font-weight: bold;
+  left: 50px;
 }
