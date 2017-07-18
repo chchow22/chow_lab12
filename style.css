@@ -74,7 +74,20 @@ button {
 li {
   position: relative;
   font-size: 20px;
-  color: rgba(200, 6, 6, 0.8);
+  color: black;
   font-weight: bold;
   left: 50px;
+}
+
+.remove {
+  display: inline-block;
+  margin-left: 30px;
+  background-color: rgba(200, 6, 6, 0.5);
+
+}
+
+#clearAll {
+  width: 50%;
+  background-color: rgba(200, 6, 6, 0.5);
+
 }
