@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app = "todoModule">
+  <head>
+    <meta charset="utf-8">
+    <title> To Do List </title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+  </head>
+  <body ng-controller = "todoCtrl">
+
+    <h2> To Do List </h2>
+    <div class = "container">
+      <input type = "text" ng-model = "todoInput" placeholder="Enter Your Tasks Here">
+      <button type = "button" ng-click = "addNew(todoInput)"> Add </button>
+      <br>
+      <input type = "text" ng-model = "search" placeholder="Search" id = "search">
+      <ul>
+        <li ng-repeat = "todo in todoArray | filter : search"> {{todo}} </li>
+      </ul>
+    </div>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"> </script>
+    <script src = "script.js"> </script>
+  </body>
+</html>

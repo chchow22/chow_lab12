@@ -1,0 +1,75 @@
+li {
+  color: blue;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  color: gray;
+  text-shadow: 2px 2px 2px black;
+  font-size: 45px;
+
+}
+
+body {
+  background-image: url("coloredpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 40%;
+  background-color: rgba(63, 191, 191, 0.6);
+  margin: 0 auto;
+  padding: 5px;
+  border-width: 2px;
+  border-color: red;
+  border-radius: 5px;
+  border-style: double;
+  height: 500px;
+  padding-top: 25px;
+}
+
+input {
+  display: block;
+  position: relative;
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #888888;
+  color: rgba(63, 0, 191, 0.6);
+  padding-left: 7px;
+  font-size: 15px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  position: relative;
+  width: 20%;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  background-color: rgba(6, 6, 200, 0.5);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 4px;
+}
+
+#search {
+  margin-top: 20px;
+  width: 50%;
+  text-align: left;
+}
+
+li {
+  font-size: 20px;
+  color: rgba(6, 6, 200, 0.5);
+}
